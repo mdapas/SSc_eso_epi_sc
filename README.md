@@ -2,7 +2,7 @@
 
 Analysis code for:
 
-> Dapas et al. (2025). *Cellular and molecular dysregulation of the esophageal epithelium in systemic sclerosis.* JCI Insight.
+> Dapas et al. (2026). *Cellular and molecular dysregulation of the esophageal epithelium in systemic sclerosis.*
 
 The repository reproduces the single-cell (scRNA-seq), spatial (CosMx), and clinical-association
 analyses reported in the paper, starting from per-sample count matrices and ending in the figure
