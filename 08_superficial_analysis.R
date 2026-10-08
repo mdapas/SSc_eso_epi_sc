@@ -46,23 +46,6 @@
 #  Usage:
 #   Rscript 08_superficial_analysis.R   (run from the repository root)
 #
-#  Notes:
-#   - The superficial subset is created here by subsetting the 'superficial' compartment from the
-#     epithelial object and re-running PCA/UMAP/clustering on the existing integrated assay
-#     (no new integration). In the original working code this subset was loaded pre-made; the
-#     creation step is folded in here so the script is self-contained.
-#   - Removed from the original working file: a wholesale copy of the epi_analysis.R compartment
-#     analysis and its Venn / diff-score-bin / volcano / pseudotime / Monocle tail (none of which
-#     belong in the superficial script); FOXM1 exploration; and numerous broken/duplicate scratch
-#     plots (e.g. an undefined super_set.prox used before assignment, an undefined pb_super_obj,
-#     and a diff.score plot referencing an undefined loc).
-#   - FLAG:  (FLI1 target-gene module) is computed here because it operates on the
-#     superficial cells, but it depends on 06_pseudobulk_dgea.R outputs (the ENCODE/ChEA TF map and the
-#     by-location pseudobulk DEGs) and FLI1 is otherwise part of the endothelial . The
-#     reorganization pass may relocate it. It references the superficial pseudobulk comparison by
-#     index (qlf.res[[30]]); confirm that is the intended contrast.
-#   - The subcluster-proportion MASC is computed within each biopsy location
-#     (Proximal and Distal).
 ####################################################################################################
 
 
