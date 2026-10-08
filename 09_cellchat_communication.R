@@ -35,13 +35,6 @@
 #  Usage:
 #   Rscript 09_cellchat_communication.R   (run from the repository root; memory-intensive)
 #
-#  Notes:
-#   - CellChat groups are `types_t_cells`: the base cell types with the epithelium split into its
-#     five differentiation compartments and the lymphocytes (L) split into CD4+ T / CD8+ T.
-#   - The CD4+/CD8+ split is taken from 03_annotate_celltypes.R (sc_obj$t_cell_subtype), produced by
-#     the CD45+ immune re-integration there.
-#   - The epithelium is downsampled to 100,000 cells (DOWNSAMPLE_N) before running CellChat, as in
-#     the original, to balance the very large epithelial fraction against the other cell types.
 ####################################################################################################
 
 
