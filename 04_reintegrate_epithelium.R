@@ -33,14 +33,6 @@
 #  Usage:
 #   Submit via run_reintegration.sh, or:  Rscript --vanilla 04_reintegrate_epithelium.R
 #   This is memory-intensive (the original used a ~540-640 Gb high-memory node).
-#
-#  Notes / flags:
-#   - Cell-type subset: types == "Ep" (the stratified squamous EECs). Glandular epithelium
-#     ("GEp") is intentionally excluded.
-#   - nCount filter: cells with <= NCOUNT_FILTER (3500) UMIs are removed. This matches the red
-#     threshold line drawn in . The filter appeared as exploratory (commented) code
-#     in the original epi-analysis script; please confirm it was applied to the object used for
-#     the published figures, since it changes the EEC cell set.
 ####################################################################################################
 
 
