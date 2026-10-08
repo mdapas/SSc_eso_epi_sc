@@ -39,17 +39,6 @@
 #  Usage:
 #   Rscript 11_clinical_associations.R   (run from the repository root)
 #
-#  Notes:
-#   - Achalasia samples (SSc4, SSc2) are excluded from the ordinal
-#     motility-phenotype regressions.
-#   - Sample/patient IDs are the published de-identified IDs (see config/sample_map.txt); the
-#     clinical_data.txt / ssc_clin_dat.txt tables are expected to key on those de-identified IDs.
-#   - FLAG:  PCs use FactoMineR::PCA on the raw trait matrix (object `pca`). The Methods
-#     describe mean-imputation of the few missing values; an imputed PCA (`pca_imp`) is also computed
-#     for reference. Confirm which was used for the published figure (they are very similar given
-#     only ~6/90 values are missing).
-#   - Removed from the original working file: an SSc cutaneous-subtype PCA (rebuttal-only), and
-#     exploratory gene-vs-PC / apoptosis / BAK:BCL2-ratio analyses not shown in the paper.
 ####################################################################################################
 
 
