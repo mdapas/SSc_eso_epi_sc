@@ -32,12 +32,6 @@
 #   eso_ct_markers.tsv          cell-type markers
 #   eso_cellType_props.tsv      per-sample cell-type proportions
 #   plus diagnostic / panel PDFs (UMAPs, module plots, violins, pie chart)
-#
-# NOTE on ordering
-#   The original working script was run interactively and out of order (e.g.
-#   cell-type markers were computed before the cell types were annotated). It
-#   has been reordered into a single top-to-bottom pipeline: cluster -> identify
-#   -> annotate -> save -> summarize. The computational steps are unchanged.
 # ==============================================================================
 
 
