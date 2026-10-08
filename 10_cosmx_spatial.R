@@ -39,17 +39,6 @@
 #  Usage:
 #   Rscript 10_cosmx_spatial.R   (run from the repository root; memory-intensive)
 #
-#  Notes:
-#   - Removed from the original working file: the exploratory "differentiation score" block, which
-#     re-clustered epithelial/immune/stromal/indeterminate subsets to refine annotation (its objects
-#     are never used downstream), plus interactive scratch (View(), ElbowPlot/pheatmap dim-selection,
-#     and marker feature-plot QC grids).
-#   - FLAG: the original loaded pre-computed SingleR label objects (cosMx_labels / cosMx_epiGepiLabels)
-#     and only showed the superficial SingleR call. The cell-type and compartment SingleR calls are
-#     reconstructed here from the scRNA-seq references so the script runs end-to-end; confirm the
-#     reference objects/labels match what was used originally.
-#   - The HC_7 Proximal/Distal sections were mislabeled and are swapped (a sample-sheet correction
-#     original).
 ####################################################################################################
 
 
