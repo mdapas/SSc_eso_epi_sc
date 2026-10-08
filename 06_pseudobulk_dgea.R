@@ -43,16 +43,6 @@
 #
 #  Usage:
 #   Rscript 06_pseudobulk_dgea.R   (run from the repository root so the relative paths resolve)
-#
-#  Notes:
-#   - This script was originally run locally on the aggregated/pseudobulk data (its paths pointed
-#     at a local machine); they are parameterized to relative paths below.
-#   - Removed from the original working file (not part of the manuscript): SSc cutaneous-subtype
-#     comparisons and a parallel limma/voom DEG analysis (both rebuttal-only), SSc-vs-GERD volcano
-#     plots (no volcano panels in the paper), a downsampling/permutation DEG power analysis, the
-#     differentiation-bin pseudobulk exploration, and a clinical/motility tail that duplicates
-#     11_clinical_associations.R. The GO/KEGG/TF over-representation enrichment IS retained (it produces
-#     the over-representation tables and is distinct from the GSEA in 07_gsea_enrichment.R).
 ####################################################################################################
 
 
